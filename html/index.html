@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike.JustDoIt</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="https://media.designrush.com/inspiration_images/134805/conversions/_1512076803_93_Nike-preview.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav>
+<div class="top">
+        <div class="ontop">
+            <ul class="top-list">
+                <li class="top-item"><a class="top-item1" href="">Help</a></li>
+                <li class="top-item">
+                    <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block' " style="width:auto;" >Login</button>
+                </li>
+            </ul>
+            <a href=""><img class="jordan" src="https://www.elleman.vn/wp-content/uploads/2020/10/08/186364/3-logo-thuong-hieu-elle-man-1020-wiki.png" width="20px"></a>
+        </div>
+        <div id='login-form'class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                    <button style="color: black;" type='button'onclick='register()'class='toggle-btn'>Register</button>
+                </div>
+                <form id='login' class='input-group-login'>
+                    <input type='text'class='input-field'placeholder='Email Id' required >
+		            <input type='password'class='input-field'placeholder='Enter Password' required>
+		            <input type='checkbox'class='check-box'><span>Remember Password</span>
+		            <button type='submit'class='submit-btn'>Log in</button>
+		        </form>
+		        <form id='register' class='input-group-register'>
+		            <input type='text'class='input-field'placeholder='First Name' required>
+		            <input type='text'class='input-field'placeholder='Last Name ' required>
+		            <input type='email'class='input-field'placeholder='Email Id' required>
+		            <input type='password'class='input-field'placeholder='Enter Password' required>
+		            <input type='password'class='input-field'placeholder='Confirm Password'  required>
+		            <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+                    <button type='submit'class='submit-btn'>Register</button>
+	             </form>
+            </div>
+        </div>
+</div>
+        <div class="wrapper">
+            <div class="list-icon">
+                <h1 class="first-cart"><i class="fal fa-shopping-bag"></i></h1>
+                <h1 class="heart"><i class="fal fa-heart"></i></h1>
+            </div>
+            <div class="search">
+                <div class="icon"></div>
+                <div class="input">
+                  <input id="mysearch" type="text" name="" placeholder="Search">
+                
+                </div>
+                <span class="clear" onclick="document.getElementById('mysearch').value  = '' "></span>         
+            </div>
+               
+                    <div class="logo2">
+                        <a href="index.html"><img class="nike" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/420px-Logo_NIKE.svg.png" width=125px;></a>
+                    </div>
+                    <ul class="menu">
+                        <li>
+                            <a class="active" href="MEN.html">MEN</a>
+                            <div class="men">
+                                <div class="content1">
+                                    <div class="row1">
+                                        <img src="https://i.pinimg.com/originals/e2/8f/fb/e28ffbfb2d832a707a01ed52053ff89f.jpg" alt="">
+                                    </div>
+                                    <div class="row1">
+                                        <header>Shoes</header>
+                                        <ul class="mega1">
+                                            <li><a href="#">New releases</a></li>
+                                            <li><a href="#">Basketball shoes</a></li>
+                                            <li><a href="#">Running shoes</a></li>
+                                            <li><a href="#">Lifestyle</a></li>
+                                            <li><a href="#">Training</a></li>
+                                            <li><a href="#">All Shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row1">
+                                        <header>Clothing</header>
+                                        <ul class="mega1">
+                                            <li><a href="#">New releases</a></li>
+                                            <li><a href="#">Basketball items</a></li>
+                                            <li><a href="#">Running items</a></li>
+                                            <li><a href="#">Leggings</a></li>
+                                            <li><a href="#">Jerseys and Kits</a></li>
+                                            <li><a href="#">All Clothing</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row1">
+                                        <header>Icons</header>
+                                        <ul class="mega1">
+                                            <li><a href="#">Air Force 1</a></li>
+                                            <li><a href="#">Pegasus</a></li>
+                                            <li><a href="#">Blazer</a></li>
+                                            <li><a href="#">Air Jordan 1</a></li>
+                                            <li><a href="#">Jordan x Dior</a></li>
+                                            <li><a href="#">Air Mag</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="active"  href="WOMEN.html">WOMEN</a>
+                            <div class="women">
+                                <div class="content">
+                                    <div class="row">
+                                        <img src="https://www.reed.edu/anthro/adprojects/2011/gould_ramey_butcher/ad3big.jpg" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <header>Shoes</header>
+                                        <ul class="mega">
+                                            <li><a href="#">New releases</a></li>
+                                            <li><a href="#">Basketball shoes</a></li>
+                                            <li><a href="#">Running shoes</a></li>
+                                            <li><a href="#">Lifestyle</a></li>
+                                            <li><a href="#">Training</a></li>
+                                            <li><a href="#">All Shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header>Clothing</header>
+                                        <ul class="mega">
+                                            <li><a href="#">New releases</a></li>
+                                            <li><a href="#">Basketball items</a></li>
+                                            <li><a href="#">Running items</a></li>
+                                            <li><a href="#">Leggings</a></li>
+                                            <li><a href="#">Jerseys and Kits</a></li>
+                                            <li><a href="#">All Clothing</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header>Icons</header>
+                                        <ul class="mega">
+                                            <li><a href="#">Air Force 1</a></li>
+                                            <li><a href="#">Pegasus</a></li>
+                                            <li><a href="#">Blazer</a></li>
+                                            <li><a href="#">Air Jordan 1</a></li>
+                                            <li><a href="#">Jordan x Dior</a></li>
+                                            <li><a href="#">Air Mag</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="active"  href="KIDS.html">KIDS</a>
+                            <div class="kids">
+                                <div class="content2">
+                                    <div class="row2">
+                                        <img src="https://i.pinimg.com/originals/e5/6e/a0/e56ea0938e9bf3ef41e5f729f8913af1.jpg" alt="">
+                                    </div>
+                                    <div class="row2">
+                                        <header>Shoes</header>
+                                        <ul class="mega2">
+                                            <li><a href="#">New releases</a></li>
+                                            <li><a href="#">Basketball shoes</a></li>
+                                            <li><a href="#">Running shoes</a></li>
+                                            <li><a href="#">Lifestyle</a></li>
+                                            <li><a href="#">Training</a></li>
+                                            <li><a href="#">All Shoes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row2">
+                                        <header>Clothing</header>
+                                        <ul class="mega2">
+                                            <li><a href="#">New releases</a></li>
+                                            <li><a href="#">Basketball items</a></li>
+                                            <li><a href="#">Running items</a></li>
+                                            <li><a href="#">Leggings</a></li>
+                                            <li><a href="#">Jerseys and Kits</a></li>
+                                            <li><a href="#">All Clothing</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row2">
+                                        <header>Icons</header>
+                                        <ul class="mega2">
+                                            <li><a href="#">Air Force 1</a></li>
+                                            <li><a href="#">Pegasus</a></li>
+                                            <li><a href="#">Blazer</a></li>
+                                            <li><a href="#">Air Jordan 1</a></li>
+                                            <li><a href="#">Jordan x Dior</a></li>
+                                            <li><a href="#">Air Mag</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="active"  href="PAYMENT.html">PAYMENT</a>
+                            <div class="pay">
+                                <div class="content3">
+                                    <div class="row3">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02L7xe1TSwQVCD3x97cYYmhuFFJs7AzDnr9kPFpu_EyIOhHIrrW4RPNEXYd7psnopTRw&usqp=CAU" alt="">
+                                    </div>
+                                    <div class="row3">
+                                        <header>By Cash</header>
+                                        <ul class="mega3">
+                                            <li><a href="#">No available</a></li>
+                                            <li><a href="#">Coming soon</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row3">
+                                        <header>Credit card</header>
+                                        <ul class="mega3">
+                                            <li><a href="#">Visa</a></li>
+                                            <li><a href="#">Mastercard</a></li>
+                                            <li><a href="#">American Express</a></li>
+                                            <li><a href="#">Visa Electron</a></li>
+                                            <li><a href="#">Maestro</a></li>
+                                            <li><a href="#">...</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row3">
+                                        <header>Others</header>
+                                        <ul class="mega3">
+                                            <li><a href="#">PayPal</a></li>
+                                            <li><a href="#">Apple Pay</a></li>
+                                            <li><a href="#">Loyalty card</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="active"  href="SALE.html">SALE</a>
+                            <div class="sale">
+                                <div class="content4">
+                                    <div class="row4">
+                                        <img src="https://www.nike-discount-codes.com/wp-content/uploads/2020/03/nike-discount-code-usa-20-percent-600x600.png" alt="">
+                                    </div>
+                                    <div class="row4">
+                                        <header>Summer sale</header>
+                                        <ul class="mega4">
+                                            <li><a href="#">Up to 50%</a></li>
+                                            <li><a href="#">Shoes</a></li>
+                                            <li><a href="#">Lifestyle</a></li>
+                                            <li><a href="#">Training</a></li>
+                                            <li><a href="#">All items</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row4">
+                                        <header>Winter sale</header>
+                                        <ul class="mega4">
+                                            <li><a href="#">Up to 50%</a></li>
+                                            <li><a href="#">Shoes</a></li>
+                                            <li><a href="#">Lifestyle</a></li>
+                                            <li><a href="#">Training</a></li>
+                                            <li><a href="#">All items</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row4">
+                                        <header>For members only</header>
+                                        <ul class="mega4">
+                                            <li><a href="#">Giveaway</a></li>
+                                            <li><a href="#">Vouchers</a></li>
+                                            <li><a href="#">Challenge</a></li>
+                                            <li><a href="#">Jordan x Dior</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                               
+                            </ul>
+                        </li> 
+                        
+                    </ul>
+                </div>
+                
+         
+</nav>
+<br>
+<!-- ------------------- ------------------------------------------------------------>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="header2">
+    <p>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/BUvEEVq4woU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    </p>
+</div>
+
+    <br>
+    <br>
+<!-- -------------------------------------------------------------- -->
+<div id="header3">
+        <h1 class="text">YOUR NIKE CONNECTION</h1>
+            <br>
+        <h2 class="text2">More sport, more inspiration, more Nike!</h2>
+            <br>
+            <br>
+</div>
+<div class="get">
+    <a href="">Get Your Great</a>
+</div>
+    <br>
+<!-- -------------------------swiper------------------ -->
+<div class="swiper-container">
+    <div class="fix"></div>
+    <div class="swiper-wrapper">
+        <!-- ----------------------slide1------------------ -->
+        
+        <div class="swiper-slide">
+            <div class="slider-container">
+                <div class="slide-box">
+                    <div class="slider-text">
+                        <h6>N E W &nbsp; C O L L E C T I O N</h6>
+                        <br>
+                        <h2>NEW NIKE <br> Jordan 1 Retro High x Dior</h2>
+                        <p>Descriptions:</p>
+                        <p>This Jordan 1 Retro High is composed of a white and grey leather upper with traditional Dior monogram print Swoosh. These shoes are made in Italy with premium materials. Co-branded icy translucent soles, Dior branded tongue and Wings logo, and a silver “Air Dior” hang tag completes the design. These sneakers released in April of 2020 and retailed for $2,000.</p>
+                        <br>
+                        <div class="categories">
+                            <select>
+                                <option value="">Quantity</option>
+                                <option value="quantity1">1</option>
+                                <option value="quantity2">2</option>
+                                <option value="quantity3">3</option>
+                            </select>
+                            <select>
+                                <option value="">Size</option>
+                                <option value="size-38">38</option>
+                                <option value="size-40">40</option>
+                                <option value="size-42">42</option>
+                            </select>
+                            <a href="">$10000</a>
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                        <a href=""><img src="https://robbreport.com/wp-content/uploads/2019/12/dior-air-jordan-sneaker-collaboration-main.jpg" width= 1000px alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                    <div class="cart">
+                        <button><p class="cat">Add to Cart</p></button>
+                    </div>
+                    <div class="shoes-logo">
+                        <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-- ----------------------slide2------------------ -->
+        <div class="swiper-slide">
+            <div class="slider-container">
+                <div class="slide-box">
+                    <div class="slider-text">
+                        <h6>N E W &nbsp; C O L L E C T I O N</h6>
+                        <br>
+                        <h2>NEW NIKE <br>AIR FEAR OF GOD 1 YELLOW</h2>
+                        <p>Descriptions:</p>
+                        <p>This FOG 1 is composed of a yellow breathable mesh upper, signature TPU heel and cage inspired by the Air Huarache Light, as well as its double-height Zoom Air heel unit that resembles the Air Max 180. A back zipper and cord laces complete the design. These sneakers released in July of 2019 and retailed for $350.</p>
+                        <br>
+                        <div class="categories">
+                          <select>
+                            <option value="">Quantity</option>
+                            <option value="quantity1">1</option>
+                            <option value="quantity2">2</option>
+                            <option value="quantity3">3</option>
+                          </select>
+                          <select>
+                            <option value="">Size</option>
+                            <option value="size-38">38</option>
+                            <option value="size-40">40</option>
+                            <option value="size-42">42</option>
+                          </select>
+                          <a href="">$2500</a>
+                        </div>
+                   </div>
+                   <div class="slider-img">
+                    <a href=""><img src="https://cdn.shoegameviet.com/uploads/library/nike-x-fear-of-god/nike-air-fear-of-god-1-yellow/data-images/2000/AR4237-700_2.png" width= 1000px alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                   <div class="cart">
+                      <button>Add to Cart</button>
+                   </div>
+                   <div class="shoes-logo">
+                     <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                   </div>
+                </div>
+            </div>
+        </div>
+       <!-- ----------------------slide3------------------------- -->
+        <div class="swiper-slide">
+           <div class="slider-container">
+               <div class="slide-box">
+                    <div class="slider-text">
+                       <h6>N E W &nbsp; C O L L E C T I O N</h6>
+                       <br>
+                       <h2>NEW NIKE <br>DUNK LOW TRAVIS SCOTT x PLAYSTATION</h2>
+                       <p>Descriptions:</p>
+                       <p>The Nike Dunk Low Travis Scott X Playstation sail and light blue upper with a charcoal grey reverse Swoosh. Sony branding on the hell tab, Playstation embroidery on the side heel, and a cream and light blue sole complete the design.</p>
+                       <br>
+                       <div class="categories">
+                          <select>
+                            <option value="">Quantity</option>
+                            <option value="quantity1">1</option>
+                            <option value="quantity2">2</option>
+                            <option value="quantity3">3</option>
+                          </select>
+                          <select>
+                            <option value="">Size</option>
+                            <option value="size-38">38</option>
+                            <option value="size-40">40</option>
+                            <option value="size-42">42</option>
+                          </select>
+                          <a href="">$60000</a>
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                      <a href=""><img src="https://images.complex.com/complex/images/c_crop,h_858,w_1525,x_191,y_38/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/yrwium1sly90hokvqzcn/travis-scott-playstation-nike-dunk-pair?fimg-ssr-default" width= 1000px alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                    <div class="cart">
+                       <button>Add to Cart</button>
+                    </div>
+                    <div class="shoes-logo">
+                       <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- ----------------------slide4------------------ -->
+        <div class="swiper-slide">
+            <div class="slider-container">
+                <div class="slide-box">
+                    <div class="slider-text">
+                        <h6>N E W &nbsp; C O L L E C T I O N</h6>
+                        <br>
+                        <h2>NEW NIKE <br> Jordan 1 Retro High x Dior</h2>
+                        <p>Descriptions:</p>
+                        <p>This Jordan 1 Retro High is composed of a white and grey leather upper with traditional Dior monogram print Swoosh. These shoes are made in Italy with premium materials. Co-branded icy translucent soles, Dior branded tongue and Wings logo, and a silver “Air Dior” hang tag completes the design. These sneakers released in April of 2020 and retailed for $2,000.</p>
+                        <br>
+                        <div class="categories">
+                            <select>
+                            <option value="">Quantity</option>
+                            <option value="quantity1">1</option>
+                            <option value="quantity2">2</option>
+                            <option value="quantity3">3</option>
+                            </select>
+                            <select>
+                            <option value="">Size</option>
+                            <option value="size-38">38</option>
+                            <option value="size-40">40</option>
+                            <option value="size-42">42</option>
+                            </select>
+                            <a href="">$10000</a>
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                         <a href=""><img src="https://robbreport.com/wp-content/uploads/2019/12/dior-air-jordan-sneaker-collaboration-main.jpg"  alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                    <div class="cart">
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="shoes-logo">
+                        <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!-- ------------------------slide5 -------------------------->
+        <div class="swiper-slide">
+            <div class="slider-container">
+                <div class="slide-box">
+                    <div class="slider-text">
+                        <h6>N E W &nbsp; C O L L E C T I O N</h6>
+                        <br>
+                        <h2>NEW NIKE <br>AIR YEEZY 2 RED OCTOBER</h2>
+                        <p>Descriptions:</p>
+                        <p>The Air Yeezy 2 SP ‘Red October’ stands out from its two companion colorways. There’s the monochromatic scarlet finish, contrasted only by metallic gold lace tips. There’s the unique design, which sees the side panels ditch the standard anaconda texture in favor of rows upon rows of small triangular studs. Finally, there’s the chaos that surrounded the shoe’s much-delayed release. By the time the Red Octobers finally launched online with no advance notice in February 2014, Kanye West had already severed all ties with Nike.
+
+                        </p>
+                        <br>
+                        <div class="categories">
+                            <select>
+                                <option value="">Quantity</option>
+                                <option value="quantity1">1</option>
+                                <option value="quantity2">2</option>
+                                <option value="quantity3">3</option>
+                            </select>
+                            <select>
+                                <option value="">Size</option>
+                                <option value="size-38">38</option>
+                                <option value="size-40">40</option>
+                                <option value="size-42">42</option>
+                            </select>
+                            <a href="">$52000</a>
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                        <a href=""><img src="https://cdn.shoegameviet.com/uploads/library/nike-air-yeezy-2-red-october/data-images/2000/508214_660_2_2.png" width= "1000px" alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                    <div class="cart">
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="shoes-logo">
+                        <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<hr>
+
+<!-- -------------------------------------------------- -->
+<div class="swiper-container">
+    <div class="fix"></div>
+    <div class="swiper-wrapper">
+        <!-- ----------------------slide1------------------ -->
+        <div class="swiper-slide">
+            <div class="slider-container">
+                <div class="slide-box">
+                    <div class="slider-text">
+                        <h6>N E W &nbsp; A R R I V A L</h6>
+                        <br>
+                        <h2>FEAR OF GOD x NIKE WARM UP T-SHIRT</h2>
+                        <p>Descriptions:</p>
+                        <p>This dark heather grey Fear Of God x Nike t-shirt dropped on November 19th, 2020, just ahead of the holiday season. The t-shirt gives off a 90's NBA vibe, delivering a throwback look featuring Fear Of God, Nike, and the NBA's logo.</p>
+                        <br>
+                        <div class="categories">
+                            <select>
+                                <option value="">Quantity</option>
+                                <option value="quantity1">1</option>
+                                <option value="quantity2">2</option>
+                                <option value="quantity3">3</option>
+                            </select>
+                            <select>
+                                <option value="">Size</option>
+                                <option value="size-S">S</option>
+                                <option value="size-M">M</option>
+                                <option value="size-L">L</option>
+                            </select>
+                            <a href="">$180</a>
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                        <a class="fog"  href=""><img src="https://product.hstatic.net/200000200733/product/upload_e68c106e5e77442c9e5691d3aa04c960.jpg" width= 700px alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                    <div class="cart">
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="shoes-logo">
+                        <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-- ----------------------slide2------------------ -->
+        <div class="swiper-slide">
+            <div class="slider-container">
+                <div class="slide-box">
+                    <div class="slider-text">
+                        <h6>N E W &nbsp; A R R I V A L</h6>
+                        <br>
+                        <h2>TRAVIS SCOTT x JORDAN</h2>
+                        <p>Descriptions:</p>
+                        <p>This t-shirt delivers the most intricate design of the entire capsule, piecing together what looks like multiple different Travis Scott x Jordan t-shirts in order to create a mashed-up multi-logo garment.</p>
+                        <br>
+                        <div class="categories">
+                          <select>
+                            <option value="">Quantity</option>
+                            <option value="quantity1">1</option>
+                            <option value="quantity2">2</option>
+                            <option value="quantity3">3</option>
+                          </select>
+                          <select>
+                            <option value="">Size</option>
+                            <option value="size-S">S</option>
+                            <option value="size-M">M</option>
+                            <option value="size-L">L</option>
+                          </select>
+                          <a href="">$200</a>
+                        </div>
+                   </div>
+                   <div class="slider-img">
+                    <a class="scott" href=""><img src="https://www.glab.vn/storage/products/2021/05/22/60a893a882073.jpg" width= 900px; alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                   <div class="cart">
+                      <button>Add to Cart</button>
+                   </div>
+                   <div class="shoes-logo">
+                     <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                   </div>
+                </div>
+            </div>
+        </div>
+       <!-- ----------------------slide3------------------------- -->
+        <div class="swiper-slide">
+           <div class="slider-container">
+               <div class="slide-box">
+                    <div class="slider-text">
+                       <h6>N E W &nbsp; A R R I V A L</h6>
+                       <br>
+                       <h2>OFF WHITE x NIKE NRG A6 TEE</h2>
+                       <p>Descriptions:</p>
+                       <p>The Nike Nike NRG A6 Tee comes in 6 versions: Nike Nike NRG A6 Tee Ash Grey, Nike Nike NRG A6 Tee Black, Nike Nike NRG A6 Tee Orange, Nike Nike NRG A6 Tee Pink Rush Black, Nike Nike NRG A6 Tee Retro Blue, Nike Nike NRG A6 Tee Vanilla. We have 30 of them available on Grailed today, ranging from $45 - $250.</p>
+                       <br>
+                       <div class="categories">
+                          <select>
+                            <option value="">Quantity</option>
+                            <option value="quantity1">1</option>
+                            <option value="quantity2">2</option>
+                            <option value="quantity3">3</option>
+                          </select>
+                          <select>
+                            <option value="">Size</option>
+                            <option value="size-S">S</option>
+                            <option value="size-M">M</option>
+                            <option value="size-L">L</option>
+                          </select>
+                          <a href="">$120</a>
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                      <a class="nrg" href=""><img src="https://images.stockx.com/images/OFF-WHITE-x-Nike-NRG-A6-Tee-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1611190297" width= 800px alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                    <div class="cart">
+                       <button>Add to Cart</button>
+                    </div>
+                    <div class="shoes-logo">
+                       <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- ----------------------slide4------------------ -->
+        <div class="swiper-slide">
+            <div class="slider-container">
+                <div class="slide-box">
+                    <div class="slider-text">
+                        <h6>N E W &nbsp; A R R I V A L</h6>
+                        <br>
+                        <h2>JORDAN x UNION NRG </h2>
+                        <p>Descriptions:</p>
+                        <p>Air Jordan Union NRG Vault Flight Triangle shirt in size medium. In November of 2018 Jordan and Union Los Angeles teamed up to bring the biggest shoe release of the year, the Air Jordan 1 Union. Founder and owner of Union Chris Gibbs put together an amazing shoe and some awesome apparel.</p>
+                        <br>
+                        <div class="categories">
+                            <select>
+                            <option value="">Quantity</option>
+                            <option value="quantity1">1</option>
+                            <option value="quantity2">2</option>
+                            <option value="quantity3">3</option>
+                            </select>
+                            <select>
+                            <option value="">Size</option>
+                            <option value="size-S">S</option>
+                            <option value="size-M">M</option>
+                            <option value="size-L">L</option>
+                            </select>
+                            <a href="">$250</a>
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                         <a class="uni" href=""><img src="https://images.stockx.com/images/Jordan-x-Union-NRG-Vault-Flight-Triangle-Tee-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1621458695" width= 800px alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                    <div class="cart">
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="shoes-logo">
+                        <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!-- ------------------------slide5 -------------------------->
+        <div class="swiper-slide">
+            <div class="slider-container">
+                <div class="slide-box">
+                    <div class="slider-text">
+                        <h6>N E W &nbsp; A R R I V A L</h6>
+                        <br>
+                        <h2>UNDEFEATED x NIKE x KOBE 5 </h2>
+                        <p>Descriptions:</p>
+                        <p>Undefeated clothing began as a premium sneaker store run by partners Eddie Cruz and James Bond. Synonymous with urban edge and the epitome of laid-back luxury, Undefeated became the go-to destination for limited edition trainers and casual high-end footwear.</p>
+                        <br>
+                        <div class="categories">
+                            <select>
+                                <option value="">Quantity</option>
+                                <option value="quantity1">1</option>
+                                <option value="quantity2">2</option>
+                                <option value="quantity3">3</option>
+                            </select>
+                            <select>
+                                <option value="">Size</option>
+                                <option value="size-S">S</option>
+                                <option value="size-M">M</option>
+                                <option value="size-L">L</option>
+                            </select>
+                            <a href="">$500</a>
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                        <a class="kobe" href=""><img src="https://images.stockx.com/images/Undefeated-x-Nike-x-Kobe-5-Strike-Tee-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1623271570" width= 800px alt=""></a>
+                    </div>
+                </div>
+                <div class="bottom-things">
+                    <div class="cart">
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="shoes-logo">
+                        <a href="index.html"><img src="https://www.freeiconspng.com/thumbs/nike-logo/logo-brand-nike-png-10.png " alt="" width="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<br>
+
+<!-- =---------------------------------------------------------- -->
+<h1 class="title">LIMITED EDITION:</h1>
+<div class="allcard">
+    <div class="card">
+        <div class="circle">
+            <div class="content">
+                <h2>Nike Air Mag</h2>
+                <p>Undefeated clothing began as a premium sneaker store run by partners Eddie Cruz and James Bond. Synonymous with urban edge and the epitome of laid-back luxury, Undefeated became the go-to destination for limited edition trainers and casual high-end footwear.</p>
+                <br>
+                <a href="">Order now</a>
+            </div>
+        </div>
+            <img src="https://lh3.googleusercontent.com/proxy/RVoUCSLb8eCmQ7M5kdwALGx6I1csZB3nPEG2jbUmkOp4sLigScyPGfEpKmNTBACt2W5BU8ydx3SXDHX8OBQFU03y7o79U-EP98Qv1y5lsG2hjVWQca_QqB-jF5afA-sr3VnO">
+    </div>
+    <div class="card">
+        <div class="circle">
+            <div class="content">
+                <h2>Nike Dunk Low</h2>
+                <p>The Nike Dunk Low CPFM is covered in Swarovski crystals. From the toe, to the tongue, to the heel, the sneaker shines as bright as a diamond. Another notable feature is the oversized Swoosh, which is an usual addition to the basketball silhouette. </p>
+                <br>
+                <a href="">Order now</a>
+            </div>
+        </div>
+            <img src="https://cdn.shoegameviet.com/uploads/library/sb-dunk-low/nike-sb-dunk-low-ben-jerrys-chunky-dunky/data-images/2000/CU3244-100_2.png" alt="">
+    </div>
+    <div class="card">
+        <div class="circle">
+            <div class="content">
+                <h2>Nike Dunk Low Cactus</h2>
+                <p>Undefeated clothing began as a premium sneaker store run by partners Eddie Cruz and James Bond. Synonymous with urban edge and the epitome of laid-back luxury, Undefeated became the go-to d</p>
+                <br>
+                <a href="">Order now</a>
+            </div>
+        </div>
+            <img src="https://snkrvn.com/wp-content/uploads/2020/02/CT5053-001_2.png" alt="">
+    </div>
+</div>
+
+<!-- -------------------testimonial -------->
+<!-- <section>
+    <div class="section-testimonial" id="testimonial">
+        <div class="testimonial_container">
+            <div class="glide" id="glide_3">
+                <div class="glide_track" data-glide-el="track">
+                    <ul class="glide_slides">
+                        <li class="glide_slide">
+                            <div class="testimonial_box">
+                                <div class="client_image">
+                                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHZBlG2XoZtp8WfkfqUvBD9EQJVZrIoiKq3-bytdS8dGOgI1lp">
+                                </div>
+                                <p>'No one wants to play in Under Armours’ while standing up for Nike'</p>
+                                <div class="client_info">
+                                    <h3>KEVIN DURANT</h3>
+                                    <span>Athlete At NBA</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide_slide">
+                            <div class="testimonial_box">
+                                <div class="client_image">
+                                    <img src="https://www.elleman.vn/wp-content/uploads/2020/08/11/182308/313-kobe-bryant-elleman.jpg">
+                                </div>
+                                <p>"Nike has NOT sent any of these pairs to me and my girls. I do not know how someone else has their hands on shoes I designed in honor of my daughter, Gigi and we don't," Bryant wrote. "I hope these shoes did not get sold."</p>
+                    
+                                <div class="client_info">
+                                    <h3>KOBE BRYANT</h3>
+                                    <span>Athlete At NBA</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide_slide">
+                            <div class="testimonial_box">
+                                <div class="client_image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWt0mrD9N80-r5LWP2FZwNB2_pQQsV3SlSXxoWI-GEYXcpreLgB9c3OPfU3euJOjdLTuE&usqp=CAU">
+                                </div>
+                                <p>"My velocity changes moment to moment, and I need a shoe that supports that". "I always want to be light, but I also need something that's able to handle the power I bring to the game", LeBron says. "Being light and tough is something that's been consistent about my shoes".</p>
+                                <div class="client_info">
+                                    <h3>LEBRON JAMES</h3>
+                                    <span>Athlete At NBA</span>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="0"></button>
+                    <button class="glide__bullet" data-glide-dir="1"></button>
+                    <button class="glide__bullet" data-glide-dir="2"></button>
+                    <button class="glide__bullet" data-glide-dir="3"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- ------------------------------------------ -->
+<section class="testimonials-section">
+    <div class="testimonials-header"><b>OUR </b>TESTIMONIALS</div>
+    <div class="testimonials-wrapper">
+        <div class="testimonials-container">
+            <div class="testimonials-profile">
+                <div class="testimonials-img">
+                    <img class="person-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHZBlG2XoZtp8WfkfqUvBD9EQJVZrIoiKq3-bytdS8dGOgI1lp">
+                </div>
+                <h3 class="person-name">KEVIN DURANT</h3>
+            </div>
+            <br><br>
+            <p class="said"><span class="fa fa-quote-left left"></span>No one wants to play in Under Armours’ while standing up for Nike. Kevin Durant’s latest shot at Under Armour shows us just how loyal he is to Nike.</p>
+            <div class="social">
+                <i class="app-icon fab fa-instagram"></i>
+                <i class="app-icon fab fa-facebook"></i>
+                <i class="app-icon fab fa-twitter"></i>
+            </div>
+        </div>
+
+        <div class="testimonials-container">
+            <div class="testimonials-profile">
+                <div class="testimonials-img">
+                    <img class="person-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWt0mrD9N80-r5LWP2FZwNB2_pQQsV3SlSXxoWI-GEYXcpreLgB9c3OPfU3euJOjdLTuE&usqp=CAU">
+                </div>
+                <h3 class="person-name">LEBRON JAMES</h3>
+            </div>
+            <br>
+            <br>
+            <p class="said"><span class="fa fa-quote-left left"></span>My velocity changes moment to moment, and I need a shoe that supports that". "I always want to be light, but I also need something that's able to handle the power I bring to the game", LeBron says. "Being light and tough is something that's been consistent about my shoes.</p>
+            <div class="social">
+                <i class="app-icon fab fa-instagram"></i>
+                <i class="app-icon fab fa-facebook"></i>
+                <i class="app-icon fab fa-twitter"></i>
+            </div>
+        </div>
+
+        <div class="testimonials-container">
+            <div class="testimonials-profile">
+                <div class="testimonials-img">
+                    <img class="person-img" src="https://www.elleman.vn/wp-content/uploads/2020/08/11/182308/313-kobe-bryant-elleman.jpg">
+                </div>
+                <h3 class="person-name">KOBE BRYANT</h3>
+            </div>
+            <br>
+            <br>
+            <p class="said"><span class="fa fa-quote-left left"></span>Nike has NOT sent any of these pairs to me and my girls. I do not know how someone else has their hands on shoes I designed in honor of my daughter, Gigi and we don't," Bryant wrote. "I hope these shoes did not get sold.</p>
+            <div class="social">
+                <i class="app-icon fab fa-instagram"></i>
+                <i class="app-icon fab fa-facebook"></i>
+                <i class="app-icon fab fa-twitter"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ------------------------------------------ -->
+<!-- ------------------------------------------ -->
+<h1 style="font-size: 90px; justify-content: center; align-items: center; display: flex;">ABOUT US</h1>
+<div class="video">
+    <div class="video-list">
+        <ul class="videos">
+            <li class="video1"><iframe width="600" height="400" src="https://www.youtube.com/embed/eCrc_7Z_4xI?list=PLNqKTn4CuEXdI07vrchgcJLM6oCI_jJjj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            <li class="video2"><iframe width="600" height="400" src="https://www.youtube.com/embed/Ajv7pmh-7eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        </ul>
+    </div>
+</div>
+<!-- ------------------------------------------ -->
+<br>
+<br>
+<br>
+<div class="how-pay">
+    <div class="howpay-container">
+        <div class="howpay-small-container">
+            <div class="howpay-logo">
+                <a href="#"><img src="https://carpenternaturecenter.org/wp-content/uploads/2019/03/paypal.png"></a>
+            </div>
+            <div class="howpay-logo">
+                <a href="#"><img src="https://img.mservice.io/momo-payment/icon/images/logo512.png"></a>
+            </div>
+            <div class="howpay-logo">
+                <a href="#"><img src="https://image.flaticon.com/icons/png/512/178/178964.png"></a>
+            </div>
+            <div class="howpay-logo">
+                <a href="#"><img src="https://img.pngio.com/receive-icons-free-download-png-and-svg-receive-png-256_256.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<hr color="black">
+<div>
+    <footer class="footer">
+        <div class="grid>">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading"><a href="" class="head"> BRAND</a></h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">PROMOTIONS</h3></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">FIND A STORE</h3></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">SIGN UP FOR EMAIL</h3></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">BECOME A MEMBER</h3></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href=""class="footer-item__link">NIKE JOURNAL</h3></a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">SEND US FEEDBACK</h3></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading"><a href="" class="head">GET HELP</a></h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Order Status</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Shipping and Delivery</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Returns</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Payment Options</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Gift Card Balance</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading"><a href="" class="head">ABOUT NIKE</a></h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">News</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Careers</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Investors</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Purpose</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Sustainability</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading"></h3>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading"></h3>
+                    <ul class="footer-list1">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-twitter "></i>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            <div class="grid__row">
+                <p class="footer__text"></p>
+                <p class="footer__text2"></p>
+                <p></p>
+            </div>
+        </div>
+    </footer>
+    <hr color="gray" >
+                <div class="overr">
+
+                    <div class="end2">
+                        <ul class="end3">
+                            <li class="end4"><a class="end5" href="">Guides</a></li>
+                            <li class="end4"><a class="end5" href="">Terms of Sale</a></li>
+                            <li class="end4"><a class="end5" href="">Terms of Use</a></li>
+                            <li class="end4"><a class="end5" href="">Nike Privacy Policy</a></li>
+                            <li class="end4"><a class="end5" href="">CA Supply Chains Act</a></li>
+                        </ul>
+                    </div>
+                    <div class="over1">
+                        <ul class="info">
+                            <li>
+                                <a class="map" href="">
+                                <i class="fa fa-map-marker" aria-hidden="true" width= 5px></i>
+                                  United States
+                                </a>
+                            </li>
+                            <li class="copy">@2021 Nike,Inc.All Rights Reserved</li>
+                        </ul>
+                    </div>
+                
+</div>
+<div id="backtop">
+    <i class="fas fa-chevron-up"></i>
+</div>
+
+
+<!---------------------------------------------------------------------  -->
+<script src="../js/index.js"></script>
+<script type="text/javascript" src="../js/swiper.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+ 
+</body> 
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>$(document).ready (function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('#backtop').fadeIn();
+        }
+        else {
+            $('#backtop').fadeOut();
+        } 
+    });
+    $('#backtop').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500)
+    });
+});
+</script>
+</html>
+<!-- -----------testimonial------------ -->
+<!-- 
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row1">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>“I move at different paces and speeds. My velocity changes moment to moment and I need a shoe that supports that.”</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="https://cdn-img.thethao247.vn/upload/quynhtrang/2021/03/31/lebron-james-hanh-trinh-vuon-len-dinh-nba-1617161077.jpg" width=100px>
+                <h3>Lebron James</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>“I move at different paces and speeds. My velocity changes moment to moment and I need a shoe that supports that.”</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="https://cdn-img.thethao247.vn/upload/quynhtrang/2021/03/31/lebron-james-hanh-trinh-vuon-len-dinh-nba-1617161077.jpg">
+                <h3>Kobe Bryant</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>“I move at different paces and speeds. My velocity changes moment to moment and I need a shoe that supports that.”</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="https://cdn-img.thethao247.vn/upload/quynhtrang/2021/03/31/lebron-james-hanh-trinh-vuon-len-dinh-nba-1617161077.jpg">
+                <h3>Kevin Durant</h3>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- ------------------------------------------------------------- -->

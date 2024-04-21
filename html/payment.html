@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike.JustPayment</title>
+    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="https://media.designrush.com/inspiration_images/134805/conversions/_1512076803_93_Nike-preview.jpg">
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="top">
+                <div class="ontop">
+                    <ul class="top-list">
+                        <li class="top-item"><a class="top-item1" href="">Help</a></li>
+                        <li class="top-item">
+                            <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block' " style="width:auto;" >Login</button>
+                        </li>
+                    </ul>
+                    <a href=""><img class="jordan" src="https://www.elleman.vn/wp-content/uploads/2020/10/08/186364/3-logo-thuong-hieu-elle-man-1020-wiki.png" width="20px"></a>
+                </div>
+                <div id='login-form'class='login-page'>
+                    <div class="form-box">
+                        <div class='button-box'>
+                            <div id='btn'></div>
+                            <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                            <button style="color: black;" type='button'onclick='register()'class='toggle-btn'>Register</button>
+                        </div>
+                        <form id='login' class='input-group-login'>
+                            <input type='text'class='input-field'placeholder='Email Id' required >
+                            <input type='password'class='input-field'placeholder='Enter Password' required>
+                            <input type='checkbox'class='check-box'><span>Remember Password</span>
+                            <button type='submit'class='submit-btn'>Log in</button>
+                        </form>
+                        <form id='register' class='input-group-register'>
+                            <input type='text'class='input-field'placeholder='First Name' required>
+                            <input type='text'class='input-field'placeholder='Last Name ' required>
+                            <input type='email'class='input-field'placeholder='Email Id' required>
+                            <input type='password'class='input-field'placeholder='Enter Password' required>
+                            <input type='password'class='input-field'placeholder='Confirm Password'  required>
+                            <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+                            <button type='submit'class='submit-btn'>Register</button>
+                         </form>
+                    </div>
+                </div>
+        </div>
+                <div class="wrapper">
+                    <div class="list-icon">
+                
+                        <a href=""><i class="fal fa-shopping-bag"></i></a>
+                        <a href=""><i class="fal fa-heart"></i></a>
+                    </div>
+                    <div class="search">
+                        <div class="icon"></div>
+                        <div class="input">
+                          <input id="mysearch" type="text" name="" placeholder="Search">
+                        
+                        </div>
+                        <span class="clear" onclick="document.getElementById('mysearch').value  = '' "></span>
+                    
+                    </div>
+                       
+                            <div class="logo2">
+                                <a href="index.html"><img class="nike" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/420px-Logo_NIKE.svg.png" width=125px;></a>
+                            </div>
+                            <ul class="menu">
+                                <li>
+                                    <a class="active" href="MEN.html">MEN</a>
+                                    <div class="men">
+                                        <div class="content1">
+                                            <div class="row1">
+                                                <img src="https://i.pinimg.com/originals/e2/8f/fb/e28ffbfb2d832a707a01ed52053ff89f.jpg" alt="">
+                                            </div>
+                                            <div class="row1">
+                                                <header>Shoes</header>
+                                                <ul class="mega1">
+                                                    <li><a href="#">New releases</a></li>
+                                                    <li><a href="#">Basketball shoes</a></li>
+                                                    <li><a href="#">Running shoes</a></li>
+                                                    <li><a href="#">Lifestyle</a></li>
+                                                    <li><a href="#">Training</a></li>
+                                                    <li><a href="#">All Shoes</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row1">
+                                                <header>Clothing</header>
+                                                <ul class="mega1">
+                                                    <li><a href="#">New releases</a></li>
+                                                    <li><a href="#">Basketball items</a></li>
+                                                    <li><a href="#">Running items</a></li>
+                                                    <li><a href="#">Leggings</a></li>
+                                                    <li><a href="#">Jerseys and Kits</a></li>
+                                                    <li><a href="#">All Clothing</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row1">
+                                                <header>Icons</header>
+                                                <ul class="mega1">
+                                                    <li><a href="#">Air Force 1</a></li>
+                                                    <li><a href="#">Pegasus</a></li>
+                                                    <li><a href="#">Blazer</a></li>
+                                                    <li><a href="#">Air Jordan 1</a></li>
+                                                    <li><a href="#">Jordan x Dior</a></li>
+                                                    <li><a href="#">Air Mag</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a  class="active" href="WOMEN.html">WOMEN</a>
+                                    <div class="women">
+                                        <div class="content">
+                                            <div class="row">
+                                                <img src="https://www.reed.edu/anthro/adprojects/2011/gould_ramey_butcher/ad3big.jpg" alt="">
+                                            </div>
+                                            <div class="row">
+                                                <header>Shoes</header>
+                                                <ul class="mega">
+                                                    <li><a href="#">New releases</a></li>
+                                                    <li><a href="#">Basketball shoes</a></li>
+                                                    <li><a href="#">Running shoes</a></li>
+                                                    <li><a href="#">Lifestyle</a></li>
+                                                    <li><a href="#">Training</a></li>
+                                                    <li><a href="#">All Shoes</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row">
+                                                <header>Clothing</header>
+                                                <ul class="mega">
+                                                    <li><a href="#">New releases</a></li>
+                                                    <li><a href="#">Basketball items</a></li>
+                                                    <li><a href="#">Running items</a></li>
+                                                    <li><a href="#">Leggings</a></li>
+                                                    <li><a href="#">Jerseys and Kits</a></li>
+                                                    <li><a href="#">All Clothing</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row">
+                                                <header>Icons</header>
+                                                <ul class="mega">
+                                                    <li><a href="#">Air Force 1</a></li>
+                                                    <li><a href="#">Pegasus</a></li>
+                                                    <li><a href="#">Blazer</a></li>
+                                                    <li><a href="#">Air Jordan 1</a></li>
+                                                    <li><a href="#">Jordan x Dior</a></li>
+                                                    <li><a href="#">Air Mag</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a  class="active" href="KIDS.html">KIDS</a>
+                                    <div class="kids">
+                                        <div class="content2">
+                                            <div class="row2">
+                                                <img src="https://i.pinimg.com/originals/e5/6e/a0/e56ea0938e9bf3ef41e5f729f8913af1.jpg" alt="">
+                                            </div>
+                                            <div class="row2">
+                                                <header>Shoes</header>
+                                                <ul class="mega2">
+                                                    <li><a href="#">New releases</a></li>
+                                                    <li><a href="#">Basketball shoes</a></li>
+                                                    <li><a href="#">Running shoes</a></li>
+                                                    <li><a href="#">Lifestyle</a></li>
+                                                    <li><a href="#">Training</a></li>
+                                                    <li><a href="#">All Shoes</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row2">
+                                                <header>Clothing</header>
+                                                <ul class="mega2">
+                                                    <li><a href="#">New releases</a></li>
+                                                    <li><a href="#">Basketball items</a></li>
+                                                    <li><a href="#">Running items</a></li>
+                                                    <li><a href="#">Leggings</a></li>
+                                                    <li><a href="#">Jerseys and Kits</a></li>
+                                                    <li><a href="#">All Clothing</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row2">
+                                                <header>Icons</header>
+                                                <ul class="mega2">
+                                                    <li><a href="#">Air Force 1</a></li>
+                                                    <li><a href="#">Pegasus</a></li>
+                                                    <li><a href="#">Blazer</a></li>
+                                                    <li><a href="#">Air Jordan 1</a></li>
+                                                    <li><a href="#">Jordan x Dior</a></li>
+                                                    <li><a href="#">Air Mag</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a  class="active" href="PAYMENT.html">PAYMENT</a>
+                                    <div class="pay">
+                                        <div class="content3">
+                                            <div class="row3">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02L7xe1TSwQVCD3x97cYYmhuFFJs7AzDnr9kPFpu_EyIOhHIrrW4RPNEXYd7psnopTRw&usqp=CAU" alt="">
+                                            </div>
+                                            <div class="row3">
+                                                <header>By Cash</header>
+                                                <ul class="mega3">
+                                                    <li><a href="#">No available</a></li>
+                                                    <li><a href="#">Coming soon</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row3">
+                                                <header>Credit card</header>
+                                                <ul class="mega3">
+                                                    <li><a href="#">Visa</a></li>
+                                                    <li><a href="#">Mastercard</a></li>
+                                                    <li><a href="#">American Express</a></li>
+                                                    <li><a href="#">Visa Electron</a></li>
+                                                    <li><a href="#">Maestro</a></li>
+                                                    <li><a href="#">...</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row3">
+                                                <header>Others</header>
+                                                <ul class="mega3">
+                                                    <li><a href="#">PayPal</a></li>
+                                                    <li><a href="#">Apple Pay</a></li>
+                                                    <li><a href="#">Loyalty card</a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a  class="active" href="SALE.html">SALE</a>
+                                    <div class="sale">
+                                        <div class="content4">
+                                            <div class="row4">
+                                                <img src="https://www.nike-discount-codes.com/wp-content/uploads/2020/03/nike-discount-code-usa-20-percent-600x600.png" alt="">
+                                            </div>
+                                            <div class="row4">
+                                                <header>Summer sale</header>
+                                                <ul class="mega4">
+                                                    <li><a href="#">Up to 50%</a></li>
+                                                    <li><a href="#">Shoes</a></li>
+                                                    <li><a href="#">Lifestyle</a></li>
+                                                    <li><a href="#">Training</a></li>
+                                                    <li><a href="#">All items</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row4">
+                                                <header>Winter sale</header>
+                                                <ul class="mega4">
+                                                    <li><a href="#">Up to 50%</a></li>
+                                                    <li><a href="#">Shoes</a></li>
+                                                    <li><a href="#">Lifestyle</a></li>
+                                                    <li><a href="#">Training</a></li>
+                                                    <li><a href="#">All items</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row4">
+                                                <header>For members only</header>
+                                                <ul class="mega4">
+                                                    <li><a href="#">Giveaway</a></li>
+                                                    <li><a href="#">Vouchers</a></li>
+                                                    <li><a href="#">Challenge</a></li>
+                                                    <li><a href="#">Jordan x Dior</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                       
+                                    </ul>
+                                </li> 
+                                
+                            </ul>
+                        </div>
+                           
+    </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+   
+        <div id="header2">
+            <img src="https://c.static-nike.com/a/images/f_auto/dpr_2.0/h_500,c_limit/417ce94e-f601-4bf5-86df-1370e24610bb/nike-snkrs-app.png" width=1500px>  
+     </div>
+         <br>
+         <br>
+
+     <!-- -------------------------------------------------------------- -->
+     <div id="header3">
+             <h1 class="text">YOUR NIKE CONNECTION</h1>
+                 <br>
+             <h2 class="text2">More sport, more inspiration, more Nike!</h2>
+                 <br>
+                 <br>
+     </div>
+     <div class="get">
+         <a href="">Get Your Great</a>
+     </div>
+     <!-- -------------------------- -->
+     <h1>WHAT PAYMENT OPTIONS CAN I USE ON NIKE ORDERS?</h1>
+     <br>
+     <br>
+    <h2>We want to make buying your favourite Nike shoes and gear fast and easy, and accept the following payment options:</h2>
+    <ul class="payment-options">
+        <li class="options">Visa, MasterCard, American Express</li>
+        <li class="options">Apple Pay</li>
+        <li class="options">PayPal</li>
+        <li class="options">Klarna</li>
+        <li class="options">Nike and Converse Gift Cards</li>
+        <li class="options">Product Vouchers</li>
+        <li class="options">More</li>
+    </ul>
+    <div class="all">
+        <div class="joinus">
+                <a class="ju" href="">Join Us</a>
+        </div>
+        <div class="member"> 
+            <a class="becomeamem" href="">Become a member</a>
+        </div>
+    </div>
+    <h2 style="font-weight: bold;">FAQs</h2>
+    <div id="wrapper3">
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>When will I be charged for my order?</h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-body">
+                    <p>We’ll charge your payment when your order ships. If your order includes multiple shipments, you’ll see a charge for each item as it goes out. Please note, we place an initial authorization for the amount of the entire order when you place it—this is a temporary hold on funds that will automatically drop off within a few days.</p>  
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Can I pay with a credit card issued outside of the US?</h3>
+                        <i class="arrow fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Yes, credit cards issued by banks from select countries and regions can be used on your Nike.com order as long as you have a US shipping address. Choose from available countries in the payment section during checkout.</p>
+
+                    </div>                    
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Can I split my payment between multiple credit cards?</h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-body">
+                    <p>You can only use one credit/debit card per order, but you can combine a gift card payment with a credit card payment.                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Can I pay with more than one gift card?</h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-body">
+                    <p>Yes, you can use up to 10 gift cards per order.                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>How do I pay with PayPal?                    </h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-body">
+                    <p>When you select PayPal during checkout, you’ll need to agree to a billing agreement to allow Nike to bill your PayPal account. The agreement is valid for one hour—but don’t worry, if it expires before you complete your order, you can simply agree again when you’re ready to place an order. And please note, the shipping address on your Nike order must match the shipping address saved to your PayPal account.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Why don't I see Apple Pay as an option?                    </h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-body">
+                    <p>You need to be signed in to your iCloud account to see Apple Pay as an option on Nike.com and in the Nike and SNKRS Apps. If you're shopping on Nike.com, you need to use Safari as your web browser. And if you're shopping Nike.com on an older MacBook, you may not see Apple Pay yet; we're working closely with Apple to activate this functionality.                    </p>
+                </div>
+            </div>
+            <!-- <div class="accordian-item">
+                <div class="accordian-header">
+                    <h3></h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordian-body">
+                    <p></p>
+                </div>
+            </div>
+            <div class="accordian-item">
+                <div class="accordian-header">
+                    <h3></h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordian-body">
+                    <p></p>
+                </div>
+            </div>
+            <div class="accordian-item">
+                <div class="accordian-header">
+                    <h3></h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordian-body">
+                    <p></p>
+                </div>
+            </div>
+            <div class="accordian-item">
+                <div class="accordian-header">
+                    <h3></h3>
+                    <i class="arrow fas fa-chevron-down"></i>
+                </div>
+                <div class="accordian-body">
+                    <p></p>
+                </div>
+            </div> -->
+            </div>
+        </div>
+    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="how-pay">
+            <div class="howpay-container">
+                <div class="howpay-small-container">
+                    <div class="howpay-logo">
+                        <a href="#"><img src="https://carpenternaturecenter.org/wp-content/uploads/2019/03/paypal.png"></a>
+                    </div>
+                    <div class="howpay-logo">
+                        <a href="#"><img src="https://img.mservice.io/momo-payment/icon/images/logo512.png"></a>
+                    </div>
+                    <div class="howpay-logo">
+                        <a href="#"><img src="https://image.flaticon.com/icons/png/512/178/178964.png"></a>
+                    </div>
+                    <div class="howpay-logo">
+                        <a href="#"><img src="https://img.pngio.com/receive-icons-free-download-png-and-svg-receive-png-256_256.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr color="black">
+        <div>
+            <footer class="footer">
+                <div class="grid>">
+                    <div class="grid__row">
+                        <div class="grid__column-2-4">
+                            <h3 class="footer__heading"><a href="" class="head"> BRAND</a></h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">PROMOTIONS</h3></a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">FIND A STORE</h3></a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">SIGN UP FOR EMAIL</h3></a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">BECOME A MEMBER</h3></a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href=""class="footer-item__link">NIKE JOURNAL</h3></a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">SEND US FEEDBACK</h3></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <h3 class="footer__heading"><a href="" class="head">GET HELP</a></h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Order Status</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Shipping and Delivery</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Returns</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Payment Options</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Gift Card Balance</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <h3 class="footer__heading"><a href="" class="head">ABOUT NIKE</a></h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">News</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Careers</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Investors</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Purpose</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Sustainability</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <h3 class="footer__heading"></h3>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <h3 class="footer__heading"></h3>
+                            <ul class="footer-list1">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-twitter "></i>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="grid__row">
+                        <p class="footer__text"></p>
+                        <p class="footer__text2"></p>
+                        <p></p>
+                    </div>
+                </div>
+            </footer>
+            <hr color="gray" >
+                        <div class="overr">
+        
+                            <div class="end2">
+                                <ul class="end3">
+                                    <li class="end4"><a class="end5" href="">Guides</a></li>
+                                    <li class="end4"><a class="end5" href="">Terms of Sale</a></li>
+                                    <li class="end4"><a class="end5" href="">Terms of Use</a></li>
+                                    <li class="end4"><a class="end5" href="">Nike Privacy Policy</a></li>
+                                    <li class="end4"><a class="end5" href="">CA Supply Chains Act</a></li>
+                                </ul>
+                            </div>
+                            <div class="over1">
+                                <ul class="info">
+                                    <li>
+                                        <a class="map" href="">
+                                        <i class="fa fa-map-marker" aria-hidden="true" width= 5px></i>
+                                          United States
+                                        </a>
+                                    </li>
+                                    <li class="copy">@2021 Nike,Inc.All Rights Reserved</li>
+                                </ul>
+                            </div>
+                        
+        </div>
+        
+<!-- ------------------------ -->
+</div>
+<div id="backtop">
+    <i class="fas fa-chevron-up"></i>
+</div>
+<!-- ------------------- ------------------------------------------------------------>
+</body>
+<script src="../js/payment.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>$(document).ready (function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('#backtop').fadeIn();
+        }
+        else {
+            $('#backtop').fadeOut();
+        } 
+    });
+    $('#backtop').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500)
+    });
+});
+</script>
+</html>
